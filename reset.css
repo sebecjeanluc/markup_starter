@@ -114,8 +114,13 @@ body {
 }
 
 ol,
-ul {
+ul,
+li {
 	list-style: none;
+}
+
+li::marker {
+	content: '';
 }
 
 blockquote,
